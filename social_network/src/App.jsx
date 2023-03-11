@@ -2,8 +2,10 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Login from "./page/login/Login";
 import Signup from "./page/signup/Signup";
+import Navbar from "./Components/navbar/Navbar";
+import Home from './page/home/Home'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Loader from "./component/Loader/Loader";
+
 function App() {
   return (
     <>

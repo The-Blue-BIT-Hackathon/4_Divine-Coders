@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="navbar-space">
               <li className="nav-box">Add Post</li>
               <li className="nav-box">Profile</li>
-              if<li className="nav-box">Sign Up</li>
+              <li className="nav-box">Sign Up</li>
               <li className="nav-box">Login</li>
             </div>
           </ul>
