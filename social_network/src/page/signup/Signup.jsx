@@ -73,10 +73,11 @@ const Signup = () => {
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed in
-            console.log('logged in')
+           
             const user = userCredential.user;
             console.log('logged in')
-            console.log(user);
+            console.log(user.UserImpl);
+            localStorage.setItem("user", JSON.stringify(user.id));
         })
         .catch((error) => {
             const errorCode = error.code;
