@@ -3,16 +3,16 @@ import "./App.css";
 import Login from "./page/login/Login";
 import Signup from "./page/signup/Signup";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Loader from "./component/Loader/Loader";
+import Navbar from "./Components/navbar/Navbar";
 function App() {
   return (
     <>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
-          <Route exact path="/login" element={<Login/>}></Route>
-          <Route exact path="/signup" element={<Signup />}></Route>
+          <Route  path="/" exact element={<Login/>}></Route>
+          <Route  path="/signup" exact element={<Signup/>}></Route>
         </Routes>
-        {/* <Loader/> */} 
       </BrowserRouter>
     </>
   );
