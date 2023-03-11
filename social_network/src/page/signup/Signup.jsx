@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './Signup.css'
 import {createUserWithEmailAndPassword} from 'firebase/auth'
 import {auth} from '../../firebase/Firebase'
+import { Link, useNavigate } from "react-router-dom";
 const Signup = () => {
 
     const [email,setEmail]=useState('');
@@ -9,6 +10,7 @@ const Signup = () => {
     const [confPassword,setConfPassword]=useState('');
     const [validationMsg, setValidationMsg] = useState("");
 
+    const navigate = useNavigate();
 
     const setEmailState = (event) => {
         setEmail(event.target.value);
@@ -76,8 +78,11 @@ const Signup = () => {
            
             const user = userCredential.user;
             console.log('logged in')
-            console.log(user.UserImpl);
-            localStorage.setItem("user", JSON.stringify(user.id));
+            console.log(user);
+            localStorage.setItem("user", JSON.stringify(user));
+            const savedData=localStorage.getItem('user')
+            console.log(savedData)
+            navigate("/");
         })
         .catch((error) => {
             const errorCode = error.code;
