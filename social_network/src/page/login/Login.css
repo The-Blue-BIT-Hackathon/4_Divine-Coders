@@ -1,54 +1,52 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.login-title{
-    text-align: center;
-    font-size: 3rem;
-
+.login-title {
+  text-align: center;
+  font-size: 3rem;
 }
 
-.login_main_box{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 100vh;
-    justify-self: center;
+.login_main_box {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  justify-self: center;
 }
-.login_box{
-    /* background: linear-gradient(45deg , #a036c7,#cf5858); */
-    border: 1px black solid;
+.login_box {
+  border: 1px black solid;
 }
-.box{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 50px;
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
 }
-.box input{
-    height: 2rem;
-    width: 15rem;
-    padding: 5px 10px;
-    margin: 20px;
-    border: 1px solid transparent;
-    border-bottom: 1px solid #907777;
+.box input {
+  height: 2rem;
+  width: 15rem;
+  padding: 5px 10px;
+  margin: 20px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #907777;
 }
-.submit_button{
-    font-size: 1.5rem;
-    color:white;
-    border:1px solid transparent;
-    background: #50adeb;
-    height: 2.5rem;
-    width: 100%;
-    text-align: center;
+.submit_button {
+  font-size: 1.5rem;
+  color: white;
+  border: 1px solid transparent;
+  background: #50adeb;
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
 }
-.box button{
-    text-align: center;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
+.box button {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
 }
-.submit_button:hover{
-    background: #2984c1;
+.submit_button:hover {
+  background: #2984c1;
 }

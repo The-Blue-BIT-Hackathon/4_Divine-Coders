@@ -6,8 +6,6 @@
 .login-title{
     text-align: center;
     font-size: 3rem;
-
-
 }
 
 .login_main_box{
@@ -18,7 +16,6 @@
     justify-self: center;
 }
 .login_box{
-    /* background: linear-gradient(45deg , #a036c7,#cf5858); */
     border: 1px black solid;
 }
 .box{
