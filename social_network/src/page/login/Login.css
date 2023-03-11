@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login{
+    background: linear-gradient(45deg ,  #2984c1,#912b2b);
+}
+
+.login_main_box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    justify-self: center;
+}
+.login_box{
+    background: linear-gradient(45deg , #a036c7,#cf5858);
+    border: 1px black solid;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+}
+.box label{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px 0px;
+}
+.box input{
+    height: 2rem;
+    width: 15rem;
+}
+.submit_button{
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background: #50adeb;
+    height: 2.5rem;
+}
+.submit_button:hover{
+    background: #2984c1;
+}
