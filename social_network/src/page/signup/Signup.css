@@ -7,6 +7,7 @@
     text-align: center;
     font-size: 3rem;
 
+
 }
 
 .login_main_box{
@@ -29,7 +30,7 @@
     height: 2rem;
     width: 15rem;
     padding: 5px 10px;
-    margin: 20px;
+    margin: 1px;
     border: 1px solid transparent;
     border-bottom: 1px solid #907777;
 }
@@ -41,7 +42,9 @@
     height: 2.5rem;
     width: 100%;
     text-align: center;
+    margin-top: 1.2rem;
 }
+
 .box button{
     text-align: center;
     display: flex;
