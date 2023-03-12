@@ -24,7 +24,7 @@ const Navbar = () => {
                 {" "}
                 <Link className="nav-name" to="/">Profile</Link> 
               </li>
-              {checkLogedIn ? (
+              {/* {checkLogedIn ? (
                 <div className="signup-login">
                   <li className="nav-box">
                     {" "}
@@ -40,7 +40,7 @@ const Navbar = () => {
                   {" "}
                   <Link className="nav-name" to="/"></Link> Logout
                 </li>
-              )}
+              )} */}
             </div>
           </ul>
         </div>

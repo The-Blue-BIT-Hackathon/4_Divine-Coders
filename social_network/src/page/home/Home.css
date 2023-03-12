@@ -1,0 +1,42 @@
+
+.post_main_body{
+    margin: 20px;
+    border: 1px solid brown;
+    text-align: center;
+    margin: 20px 300px;
+    width: 50%;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.head{
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.post_body{
+    margin: 0.75rem 2rem;
+}
+.nav_post{
+    display: flex;
+    background: #d6d2d2;
+    border-bottom: 0.5px solid rgb(0,0,0,0.3);
+}
+.logo_post{
+    margin-top: 1rem;
+}
+.icon_post{
+    display: flex;
+    margin: 5px;
+    padding-left: 10px;
+}
+.like_post{
+    padding: 0px 5px;
+}
+.true{
+    color: rgb(122, 26, 58);
+}
+.false{
+    color: white;
+}

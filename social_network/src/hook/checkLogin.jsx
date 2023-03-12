@@ -1,5 +1,5 @@
 export function checkLogedIn() {
-    const savedData = localStorage.getItem("token");
+    const savedData = localStorage.getItem("user");
     
     if (savedData != null) return true;
     else return false;
