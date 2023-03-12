@@ -9,10 +9,11 @@
 }
 
 .login_main_box{
+    margin-top: 4rem;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 100vh;
+    height: 100%;
     justify-self: center;
 }
 .login_box{
