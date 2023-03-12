@@ -74,7 +74,7 @@ const Login = () => {
           console.log(user);
           localStorage.setItem("user", JSON.stringify(user));
           const savedData=localStorage.getItem('user')
-          console.log(savedData)
+          console.log(savedData.uid)
           navigate("/");
       })
       .catch((error) => {
