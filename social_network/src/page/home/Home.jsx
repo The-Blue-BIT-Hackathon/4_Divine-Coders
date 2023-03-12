@@ -21,7 +21,7 @@ const Home = () => {
         id: doc.id,
       }));
       console.log(filteredData);
-
+ 
       setPosts(filteredData);
       setLoading(false);
     } catch (err) {
