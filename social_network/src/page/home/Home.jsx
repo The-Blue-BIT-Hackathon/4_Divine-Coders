@@ -46,8 +46,8 @@ const navigate=useNavigate();
         ...doc.data(),
         id: doc.id,
       }));
-      // console.log(filteredData);
-
+      console.log(filteredData);
+ 
       setPosts(filteredData);
       setLoading(false);
     } catch (err) {
