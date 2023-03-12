@@ -12,6 +12,10 @@ const Navbar = () => {
               <li className="nav-box active">Network</li>
             </div>
             <div className="navbar-space">
+            <li className="nav-box">
+                {" "}
+                <Link className="nav-name" to="/">Home</Link> 
+              </li>
               <li className="nav-box">
                 {" "}
                 <Link className="nav-name" to="/addpost">Add Post</Link> 
